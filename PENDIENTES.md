@@ -29,4 +29,4 @@ Items que quedaron fuera del alcance inicial y deben completarse antes del lanza
 
 ## Favicon
 
-- [ ] Generar favicon a partir de los logos (opcional)
+- [x] Favicon incluido desde [`favicon_io/`](favicon_io/)

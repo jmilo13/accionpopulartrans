@@ -60,7 +60,7 @@ li + li {
   padding: 1rem;
   margin: 0 -1rem 1.5rem;
   background: var(--white);
-  border-bottom: 3px solid var(--yellow-500);
+  border-bottom: 3px solid var(--magenta-500);
 }
 
 .site-header__logo {
@@ -71,7 +71,7 @@ li + li {
 
 @media (min-width: 480px) {
   .site-header__logo {
-    height: 72px;
+    height: 120px;
   }
 }
 
@@ -95,12 +95,12 @@ li + li {
   border-radius: var(--radius);
   padding: 1.25rem;
   margin-bottom: 1rem;
-  border-left: 4px solid var(--magenta-500);
+  border-left: 4px solid var(--yellow-500);
 }
 
 .detail-section--highlight {
-  border-left-color: var(--yellow-500);
-  background: var(--magenta-100);
+  border-left-color: var(--magenta-500);
+  background: var(--yellow-100);
 }
 
 .detail-section--legal {
@@ -127,7 +127,7 @@ li + li {
 
 .home-divider {
   border: none;
-  border-top: 2px solid var(--magenta-100);
+  border-top: 2px solid var(--yellow-100);
   margin: 2rem 0;
 }
 
@@ -170,8 +170,8 @@ li + li {
   justify-content: center;
   min-height: var(--tap-min);
   padding: 0.75rem 1.5rem;
-  background: var(--magenta-500);
-  color: var(--white);
+  background: var(--yellow-500);
+  color: var(--charcoal);
   border: none;
   border-radius: var(--radius);
   font-family: inherit;
@@ -180,11 +180,12 @@ li + li {
   text-decoration: none;
   cursor: pointer;
   transition: background 0.15s;
+  box-shadow: var(--shadow);
 }
 
 .participate-card__btn:hover {
-  background: var(--magenta-600);
-  color: var(--white);
+  background: var(--yellow-600);
+  color: var(--charcoal);
 }
 
 .legal-note {
@@ -213,7 +214,7 @@ li + li {
 }
 
 .accordion__item[open] {
-  border-color: var(--teal-500);
+  border-color: var(--yellow-500);
 }
 
 .accordion__summary {
@@ -244,8 +245,8 @@ li + li {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: var(--magenta-100);
-  color: var(--magenta-500);
+  background: var(--yellow-100);
+  color: var(--charcoal);
   font-size: 1.25rem;
   font-weight: 800;
   line-height: 1;
@@ -254,8 +255,8 @@ li + li {
 
 .accordion__item[open] .accordion__summary::after {
   content: '−';
-  background: var(--magenta-500);
-  color: var(--white);
+  background: var(--yellow-500);
+  color: var(--charcoal);
 }
 
 .accordion__panel {
@@ -272,7 +273,7 @@ li + li {
 .contact-section__inner {
   background: var(--white);
   border: 1px solid var(--gray-300);
-  border-top: 3px solid var(--teal-500);
+  border-top: 3px solid var(--yellow-500);
   border-radius: var(--radius);
   padding: 1.5rem 1.25rem;
   text-align: center;

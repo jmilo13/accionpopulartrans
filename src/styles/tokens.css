@@ -1,6 +1,10 @@
 :root {
-  /* Consejo Consultivo LGBTI */
+  /* Consejo Consultivo LGBTI — primario */
   --yellow-500: #ffcc33;
+  --yellow-600: #e6b800;
+  --yellow-100: #fff8e1;
+
+  /* Consejo — secundario (logo "SEJO") */
   --magenta-500: #ec005f;
   --magenta-600: #c4004f;
   --magenta-100: #ffe4ef;
@@ -23,7 +27,7 @@
   --trans-blue: #5bcefa;
   --trans-pink: #f5a9b8;
 
-  --shadow: 0 4px 20px rgba(236, 0, 95, 0.15);
+  --shadow: 0 4px 20px rgba(255, 204, 51, 0.25);
   --radius: 12px;
   --tap-min: 44px;
   --max-width: 640px;
